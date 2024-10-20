@@ -1,0 +1,10 @@
+<html>
+    <form method="POST">
+        Insert text to detect language
+        <input name="text">
+        <input type="submit">
+    </form>
+    {% if text %}
+        <p id="text">{{ text }}</p>
+    {% endif %}
+</html>
